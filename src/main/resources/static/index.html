@@ -35,7 +35,7 @@ Select date:
     </div>
     <br>
     <div v-show="showCityInfoSectionVisible">
-        Choose city or wind to see details:
+        <span class="headingColor">Choose city or wind to see details:</span>
         <br>
         <div class="cityWindSection">
             <div class="citySection">
@@ -47,7 +47,7 @@ Select date:
         </div>
     </div>
     <div v-show="showPlaceAndWindInfo" class="cityAndWindDetailSection">
-        Details:
+        <span class="headingColor">Details:</span>
         <li v-for="(value, forecast) in selectedCity" v-if="value != null && value != '' && forecast != 'Name'">
             {{forecast}} : {{value}}
         </li>
