@@ -36,12 +36,13 @@ Select date:
     <br>
     <div v-show="showCityInfoSectionVisible">
         <span class="headingColor">Choose city or wind to see details:</span>
-        <br>
         <div class="cityWindSection">
             <div class="citySection">
+                <span class="headingColor">City</span>
                 <li class="li" v-for="city in placesInfo" @click="showPlacesAndWindInfo(city)">{{city.name}}</li>
             </div>
             <div class="windSection">
+                <span class="headingColor">Sea</span>
                 <li class="li" v-for="wind in windsInfo" @click="showPlacesAndWindInfo(wind)">{{wind.name}}</li>
             </div>
         </div>

@@ -1,5 +1,6 @@
 .cityAndWindSection {
     width: 100%;
+    margin-top: 20px;
 }
 
 .citySection {
@@ -9,12 +10,12 @@
 }
 
 .windSection {
-    /*margin-left: 50%;*/
     height: 100px;
+    margin-top: 20px;
 }
 
 .cityAndWindDetailSection {
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .li:hover {
